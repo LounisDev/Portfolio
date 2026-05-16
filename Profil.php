@@ -48,7 +48,10 @@
 <br>
 <br>
 
-<h1 class="title text-center">BTS SIO</h1>
+<h1 class="title text-center">Profil</h1>
+
+
+
 
 <p>
     Le BTS SIO est un diplôme informatique de 2 ans qui se trouve dans a peu près un total de 200 lycées publiques ou privées sous contrat dans le territoire français, d'un taux de réussite varié de 60% à 95%, a la fin de cette formation on peut intervenir en entreprise en que développeur d'applications informatiques ou administrateur de réseaux locaux.

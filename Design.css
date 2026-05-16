@@ -1,0 +1,26 @@
+/* Animation Titre */
+.title 
+{
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn 
+{
+    from { scale: 0.65 ; }
+    to { scale: 1; }
+}
+
+/* Redimensionnement Navbar */
+.navbar {
+    padding: 1.5rem 1rem; /* Increase vertical padding */
+    font-size: 1.1rem; /* Slightly larger text */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Larger brand/logo text */
+}
+
+.nav-link {
+    font-size: 1.1rem; /* Larger nav links */
+    padding: 0.75rem 1rem !important; /* More space around links */
+}

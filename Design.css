@@ -1,7 +1,8 @@
-/* Animation Titre */
+/* Animation Titre et Design */
 .title 
 {
     animation: fadeIn 1s ease-in-out;
+    margin-bottom: 100px;
 }
 
 @keyframes fadeIn 
@@ -23,4 +24,18 @@
 .nav-link {
     font-size: 1.1rem; /* Larger nav links */
     padding: 0.75rem 1rem !important; /* More space around links */
+}
+
+p.left {
+    text-align: left;
+    margin: 20px;
+    width: 80%;
+    font-size: 1.2rem; /* Larger font size for better readability */
+}
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 20px;
 }

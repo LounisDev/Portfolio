@@ -32,10 +32,20 @@ p.left {
     width: 80%;
     font-size: 1.2rem; /* Larger font size for better readability */
 }
+
+/* Espacement entre les éléments */
 h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 p{
     margin-top: 20px;
+}
+
+body {
+    margin-left: 0  ;
 }

@@ -9,49 +9,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarColor02">
-        <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Home
-                    <span class="visually-hidden">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Test</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
-        </li>
-    </ul>
-    </div>
-</div>
-</nav>
+<?php include 'Navbar.php'; ?>
 <br>
 <br>
 
 <h1 class="title text-center">Profil</h1>
 
 
+<h2>Parcours Scolaire</h2>
 
+<p>
+Étudiant en BTS SIO SLAM, j’étudie différentes matières de l’informatique telles que la cybersécurité, la programmation et les ateliers professionnels.
+En option SLAM, je m’oriente vers le développement d’applications web et logicielles.
+Sérieux et curieux, je m’investis pleinement dans mon travail et cherche constamment à améliorer mes compétences.
+J’ai acquis de bonnes bases en langages de programmation au cours de ma formation.
+Mon objectif est de poursuivre dans le domaine du développement informatique afin d’affiner progressivement mon projet professionnel. 
+</p>
+
+<h2>Compétences</h2>
+
+
+<p>
+    Python : Capable de faire des applications comme une calculatrice
+    <br>
+    C# : Des petits programmes 
+    <br>
+    PHP : Capable de traiter des données de formulaires web
+    <br>
+    HTML : Capable de créer une structure stable
+    <br>
+    Javascript : Capable de créer des fonctions dynamiques dans une page web
+    <br>
+    CSS : Capable de faire une mise en page 
+</p>
+
+
+<h2>Présentation du BTS SIO</h2>
 
 <p>
     Le BTS SIO est un diplôme informatique de 2 ans qui se trouve dans a peu près un total de 200 lycées publiques ou privées sous contrat dans le territoire français, d'un taux de réussite varié de 60% à 95%, a la fin de cette formation on peut intervenir en entreprise en que développeur d'applications informatiques ou administrateur de réseaux locaux.

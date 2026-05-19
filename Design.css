@@ -32,7 +32,7 @@
 .Competences_Card::hover
 {
     transition: 0.1s;
-    background-color: rgba(29, 9, 78, 0.5);
+    background-color: rgba(26, 9, 51, 0.3);
 }
 
 /* Redimensionnement Navbar */

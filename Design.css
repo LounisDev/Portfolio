@@ -29,6 +29,12 @@
     }
 }
 
+.Competences_Card::hover
+{
+    transition: 0.1s;
+    background-color: rgba(29, 9, 78, 0.5);
+}
+
 /* Redimensionnement Navbar */
 .navbar {
     padding: 1.5rem 1rem; /* Increase vertical padding */
@@ -51,7 +57,7 @@ p.left {
     font-size: 1.2rem; /* Larger font size for better readability */
 }
 
-/* Espacement entre les éléments */
+/* Espacement entre les éléments et taille */
 h3 {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -84,6 +90,7 @@ img{
     margin-right: 20px;
     height: auto;
 }
+
 /* Création de boites pour texte et compétences */
 .container_Comp {
     margin: 30px 50px;

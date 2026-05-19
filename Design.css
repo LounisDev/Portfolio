@@ -120,8 +120,7 @@ img{
 
 .Competences_Card:hover
 {
-    transition: 0.1s;
-    background-color: rgba(26, 9, 51, 0.3);
+    background-color: red;
     animation: popUp 0.2s ease-in-out;
 }
 

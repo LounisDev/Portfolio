@@ -118,11 +118,10 @@ img{
     border-radius: 10px;
 }
 
-.Competences_Card:hover
+.Competences_Card.p:hover
 {
     background-color: rgba(26, 9, 51, 0.3);
     animation: popUp 0.2s ease-in-out;
-    width: 600px;
 }
 
 .container_Text {

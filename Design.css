@@ -118,7 +118,10 @@ img{
     border-radius: 10px;
 }
 
-
+.Competences_Card:hover
+{
+    background-color: rgba(26, 9, 51, 0.3);
+}
 
 .container_Text {
     margin: 30px 50px;

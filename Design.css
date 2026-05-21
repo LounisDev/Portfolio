@@ -1,15 +1,36 @@
-/* Animation Titre et Design */
+/* Animation Titre, font d'ecran (acceuil) et Design */
 .title 
 {
     animation: fadeIn 1s ease-in-out;
     margin-bottom: 100px;
 }
-
 @keyframes fadeIn 
 {
     from { scale: 0.55 ; }
     to { scale: 1; }
 }
+/* Animation font d'ecran (acceuil pas actif) */
+.font_accueil {
+    position: fixed;
+    left: 44%;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color : rgb(13, 35, 87);
+    z-index: -1;
+    animation: font 10s ease-in-out infinite;
+}
+@keyframes font
+{
+    0% { scale: 1; opacity: 1; }
+    50% { scale: 20; opacity: 0; }
+    100% { scale: 1; opacity: 1; }
+}
+
 
 /* Animation Texte */
 .zero_opacity {
@@ -81,7 +102,7 @@ h6.li{
     margin-top: 20px;
 }
 img{
-    border: 5px solid lightblue;
+    border: 4px solid lightblue;
     max-width: 100px;
     margin-right: 20px;
     height: auto;
@@ -97,6 +118,7 @@ img{
     border-radius: 12px;
     box-sizing: border-box;
     background-color: rgba(12, 31, 76, 0.5);
+    box-shadow: 5px 10px 8px rgb(13, 35, 87);
 }
 .container_Comp p {
     margin: 12px 0;
@@ -119,11 +141,11 @@ img{
 }
 
 .Competences_Card:hover p {
-    animation: popUp 0.5s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 .container_Text {
-    margin: 30px 50px;
+    margin: 30px 50px 30px;
     padding: 25px;
     display: block;
     width: auto;
@@ -131,6 +153,7 @@ img{
     border-radius: 12px;
     box-sizing: border-box;
     background-color: rgba(12, 31, 76, 0.5);
+    box-shadow: 5px 10px 8px rgb(13, 35, 87);
 }
 .Compentences_Titre {
     font-size: 1.5rem;

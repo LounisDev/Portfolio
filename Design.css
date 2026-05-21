@@ -49,7 +49,16 @@
         scale: 1 ;
     }
 }
-
+@keyframes fadeIn_texte
+{
+    from { scale: 1 ; }
+    to { scale: 1.08; }
+}
+@keyframes fadeOut_texte
+{
+    from { scale: 1.08 ; }
+    to { scale: 1; }
+}
 
 
 /* Redimensionnement Navbar */
@@ -121,7 +130,7 @@ img{
     box-shadow: 5px 10px 8px rgb(13, 35, 87);
 }
 .container_Comp p {
-    margin: 12px 0;
+    margin: 6px 0;
 }
 .container_Comp img {
     vertical-align: middle;
@@ -139,9 +148,21 @@ img{
     background-color: rgba(26, 9, 51, 0.5);
     border-radius: 10px;
 }
+ 
+
+.Comp_off p{
+    animation: fadeOut_texte 0.5s ease-in-out;
+}
+
+.Competences_Card:hover
+{
+    border: 2px solid rgb(84, 199, 235);
+    box-shadow: 5px 10px 8px rgb(13, 35, 87);
+}
 
 .Competences_Card:hover p {
-    animation: fadeIn 0.5s ease-in-out;
+    animation: fadeIn_texte 0.5s ease-in-out ;
+    animation-fill-mode: forwards;
 }
 
 .container_Text {
@@ -155,7 +176,7 @@ img{
     background-color: rgba(12, 31, 76, 0.5);
     box-shadow: 5px 10px 8px rgb(13, 35, 87);
 }
-.Compentences_Titre {
+.Competences_Titre {
     font-size: 1.5rem;
     margin-bottom: 20px;
 }

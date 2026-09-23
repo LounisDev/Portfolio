@@ -9,11 +9,10 @@
     from { scale: 0.55 ; }
     to { scale: 1; }
 }
-/* Animation font d'ecran (acceuil pas actif) */
 .font_accueil {
     position: fixed;
-    left: 44%;
-    top: 40%;
+    inset: 0;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,4 +189,11 @@ img{
     border-radius: 12px;
     box-sizing: border-box;
     background-color: rgba(12, 31, 76, 0.5);
+}
+
+.container_Stage img{
+    display: block;
+    margin: 20px auto;
+    max-width: 800px;
+    max-height: 800px;
 }
